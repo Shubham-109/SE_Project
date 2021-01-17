@@ -1,0 +1,58 @@
+.signInData{
+    position: relative;
+    background-image: url('back.jpg') ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+}
+.signInBox{
+    position: absolute;
+    padding: 20px;
+    background: rgba(8, 8, 8 ,0.8 );
+    border-radius: 5px;
+}
+.sText{
+    color: #f52020;
+}
+.sInput{
+    margin: 20px;
+    padding: 3px;
+    padding-left: 20px;
+    height: 3vw;
+    width: 25vw;
+    background: rgb(41, 41, 41);
+    color: rgb(0, 221, 111);
+    font-size: 16px;
+    border:0;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+}
+.sInput::placeholder{
+    color: rgb(146, 145, 145);
+    font-size: 14px;
+}
+.sInputButton{
+    margin: 20px;
+    padding: 3px;
+    padding-left: 20px;
+    height: 3vw;
+    width: 25vw;
+    background: #09aefa;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+}
+.headText{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    color: #fff;
+}

@@ -1,0 +1,106 @@
+.card_container{
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+    transition: all 0.7 ease;
+}
+.card_container:hover{
+    transition: all 0.7 ease;
+   transform: scale(1.1);
+}
+.card_container:hover .card_desc{
+    transform: scale(.9);
+}
+.width_max_1240{
+    width: 236px;
+}
+.width_1240{
+    width: 236px;
+}
+.width_1024{
+    
+    width: 243px;
+}
+.width_768{
+    width: 748px;
+}
+.width_600{
+    width: 580px;
+}
+.card_body{  
+    position: relative; 
+    overflow: hidden; 
+    padding: 0;
+    box-shadow: 0px 1px 2px 2px  #222;
+}
+.card_img_con{
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.card_img{
+    position: absolute;
+    z-index: 0;
+    margin: 0;
+}
+.card_details{
+    position: absolute;
+    left: 0;
+    padding-bottom: 10px;
+    bottom:-2px; 
+    width: 100%;
+    background: linear-gradient(to bottom , rgba( 0,0,0,0) 0%, rgba(0,0,0,0.6) 60%,  rgba(0,0,0,1) 100%);
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+.card_details_lang{
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 10px;
+    background-size:contain;
+    padding-left: 7px;
+    float: left;
+}
+.card_details_dur{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    padding: 2px;
+    margin-right: 10px;
+    background-size:contain;
+    padding-right: 7px;
+    float: right;
+}
+.card_desc{
+    color: #fff;
+    margin: 0;
+    padding: 2px;
+    padding-top: 15px;
+    font-size: 16px;
+    word-spacing: 2px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: start;
+    text-justify: distribute;
+}
+.bookPublisher{
+    padding-top: 7px;
+    padding-bottom: 3px;
+    color: #888;
+    font-size: 14px;
+}
+.bookPrice{
+    font-size: 20px;
+    color: #ffff1a ;
+    font-weight: 700;
+}
+.textDeco{
+    text-decoration: none;
+    color: #fff;
+}

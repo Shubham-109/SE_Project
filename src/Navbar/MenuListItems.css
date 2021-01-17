@@ -1,0 +1,144 @@
+.MenuListItems-item{
+    position: absolute;
+    justify-content: start;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+    width: 70vw;
+    height: 100vh;
+    overflow-y:auto;
+    transition: all 0.5s ease;
+}
+.MenuListItems-item.active{
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+.MenuListItems-item ul{
+    padding: 0;
+    list-style-type: none;
+    overflow-y: auto;
+}
+.MenuListItems-item ul li{
+    justify-content: start;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+.MenuListItems-item .fa-arrow-right{
+    float: right;
+    padding-right: 15px;
+    padding-top: 10px;
+    color: #666666;
+}
+.login-btn , .signup-btn{
+    line-height: 20px!important;
+    padding: 0!important;
+    color: #ff6600;
+    margin-left: 30px;
+}
+/* Menu List Items 2 code */
+
+.MenuListItems-item-2{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+    width: 70vw;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+.MenuListItems-item-2.active{
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.MenuListItems-item-2 ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 70vw;
+    height: 100vh;
+    overflow-y: auto;
+}
+.MenuListItems-item-2 ul li{
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+.MenuListItems-item-2 .fa-arrow-right{
+    float: right;
+    padding-right: 15px;
+    padding-top: 10px;
+    color: #666666;
+}
+.back-btn-2{
+    cursor: pointer;
+    line-height: 10px!important;
+    padding: 0;
+    background: #d9d9d9;
+}
+.back-btn-2 .fa-arrow-left{
+    margin: 10px;
+    padding-left: 20px;
+}
+.back-btn-2 a{
+    margin: 10px;
+    padding-left: 20px;
+}
+
+/* Menu List Items 3 Code */
+
+.MenuListItems-item-3{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+    width: 70vw;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+.MenuListItems-item-3.active{
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.MenuListItems-item-3 ul{
+    list-style-type: none;
+    padding: 0;
+}
+.MenuListItems-item-3 ul li{
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.MenuListItems-item-3 .fa-arrow-right{
+    float: right;
+    padding-right: 15px;
+    padding-top: 10px;
+    color: #666666;
+}
+.back-btn-3{
+    cursor: pointer;
+    line-height: 10px!important;
+    padding: 0;
+    background: #d9d9d9;
+}
+.back-btn-3 .fa-arrow-left{
+    margin: 10px;
+    padding-left: 20px;
+}
+.back-btn-3 a{
+    margin: 10px;
+    padding-left: 20px;
+}

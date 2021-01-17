@@ -1,0 +1,302 @@
+.height{
+    height: 100vh;
+}
+@media(max-width: 8000px){
+    .navbar{
+        background-color: #000;
+        padding: 10px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        width: 100vw;
+        height: 40px;
+        display: flex;
+        justify-items: flex-start;
+        box-shadow: 2px 2px 2px  #222;
+        margin-bottom: 1px;
+    }
+    .menu-bars{
+        display: none;
+    }
+    .logo{
+       margin: 0;
+       padding-left: 50px;
+    }
+    .d-input-box{
+        position: relative;
+        width: 37vw;
+        height: 40px;
+        margin-left: 20vw;
+        padding: 1px 3px;
+        background: #737373;
+        border:0;
+        border-radius: 30px;
+    }
+    .d-input{
+        height: 30px;
+        width: 25vw;
+        margin: 1px 2px;
+        border-radius: 30px;
+        background: #737373;
+        color: #00ffcc;
+        font-size: 16px;
+        border: 0!important;
+        padding: 2px 20px;
+        outline: none!important;
+        box-shadow: none!important;
+    }
+    .d-input::placeholder{
+        color: #eee;
+        font-size: 14px;
+    }
+    .d-input-search-icon{
+        float: right;
+        padding: 9px;
+        padding-right: 12px;
+        border-radius: 50%;
+        color: #1aa3ff;
+        cursor: pointer;
+    }
+    .search-icon{
+        display: none;
+    }
+    .searchDiv{
+        display: none;
+    }
+    .slideMenu{
+        display: none;
+    }
+    .navRight{
+        display: flex;
+        color: #1aa3ff;
+        margin-left: 10vw;
+        padding-top: 10px;
+        font-weight: 400;
+    }
+    .navRight div{
+        text-decoration: none;
+        margin-left: 20px;
+        cursor: pointer;
+        padding: 3px 20px;
+        background: #1aa3ff;
+        border: 1px solid #1aa3ff;
+        border-radius: 5px;
+    }
+    .navRight div:nth-child(2){
+        text-decoration: none;
+        margin-left: 20px;
+        cursor: pointer;
+        padding: 3px 20px;
+        background: #f11f2a;
+        border: 1px solid #f11f2a;
+        border-radius: 5px;
+    }
+    .textDeco{
+        text-decoration: none;
+        color: #fff;
+    }
+    .textDeco:hover{
+        color: #1aa3ff;
+    }
+    .navRight div:hover{
+        margin-left: 20px;
+        cursor: pointer;
+        color:#fff;
+        background: #fff;
+        border: 1px solid #1aa3ff;
+    }
+    .navRight div:hover .textDeco{
+        color: #1aa3ff; 
+    }
+    .searchList{
+        position: absolute;
+        z-index: 9999;
+        background: #fff;
+        box-shadow: 0px 2px 5px 2px rgb(9, 241, 183);
+        top: 43px;
+        left: 0;
+        width: 100%;
+        border-radius: 10px;
+        padding: 0;
+        /* border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;    */
+    }
+    .searchList ul{
+        list-style-type: none;
+        text-align: start;
+        margin-bottom: 10px;
+        padding: 5px 5px;
+        width: 90%;
+    }
+    .searchList ul li{
+        display: flex;
+        font-size: 14px;
+        padding:10px 5px ;
+        margin-left: 0;
+        margin: 0;
+        color: #222;
+    }
+    .searchList ul  .textDeco{
+        text-decoration: none;
+    }
+    .searchList ul li img{
+        width: 35px;
+        height: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .searchList ul li span{
+       float: right;
+       margin-left: 20px;
+    }
+    .searchList ul li:hover{
+        background: rgb(215, 216, 215);
+        cursor: pointer;
+    }
+}    
+
+
+@media(max-width: 768px){
+    .navbar{
+       
+        height: 40px;
+        padding: 0;
+        padding-bottom: 5px;
+    }
+    .menu-bars{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(70% , 30%);
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .logo{
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        transform: translate(330%,20%);
+        font-size: 18px;
+    }
+    .d-input-box{
+        display: none;
+    }    
+    .search-icon{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        transform: translate(-70% , 50%);
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .slideMenu{
+        height: 100vh;
+        width: 100vw;
+        background:rgba(0,0,0,0.5);
+        overflow-y: none;
+		scroll-behavior: none;
+        position: absolute;
+        z-index: 9000;
+        display: block;
+        top: 0;
+        bottom: 0;
+        left: -100%;
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+        transition: all 0.5s ease;
+    }
+    .slideMenu.active{
+        display: block;
+        position: fixed;
+        top: 0;
+        overflow: hidden;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+    .slideMenuClose{
+        position: absolute;
+        top: 50px;
+        right: 25px;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        border-radius: 50%;
+        font-size: 18px;
+        color: #666666;
+    }
+
+    .slideMenu-container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background:#fff;
+        width: 70vw;
+        height: 100vh;
+    }
+
+    /* Search Container Code */
+    
+    .searchDiv{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        overflow: none;
+        display: block;
+        z-index: 9000;
+        background:rgba(255,255,255,0.2);
+        top: 0;
+        right: -100%;
+        opacity: 0;
+        transition: all 0.5s ease;
+    }
+    .searchDiv.active{
+        opacity: 1;
+        transition: all 0.5s ease;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    .search-container{
+        background:#fff;
+        align-items: center;
+        height: 50px;
+    }
+    .close-icon-m{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(100% ,60%);
+    }
+    .searchInput-m{
+        position: absolute;
+        color: #1aa3ff;
+        top: 0;
+        left: 0;
+        transform: translate(20% , 20%);
+        width: 70vw;
+        height: 25px;
+        border: 0;
+        font-size: 16px;
+        outline: none;
+        box-shadow: none;
+    }
+    .search-icon-m{
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100% , 60%);
+    }
+
+    
+}

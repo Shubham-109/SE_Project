@@ -1,0 +1,44 @@
+@media(max-width: 8000px){
+
+    .logoBox{
+        position: relative;
+        font-size: 24px;
+        font-weight: 700;
+        padding: 10px;
+    }
+    .logo1{
+        position: absolute;
+        top: -5px;
+        left: 0;
+        color: #1aa3ff;
+        text-shadow: 0px 1px #33adff;
+    }
+
+
+    .logo2{
+        position: absolute;
+        top: 15px;
+        left: 0;
+        color: #ffff00;
+        text-shadow: 0px 1px #666;
+    }
+    .textDeco{
+        text-decoration: none;
+    }
+}
+
+@media(max-width: 768px){
+    .logoBox{
+        font-size: 20px;
+    }
+    .logo1{
+        top: 3px;
+        left: 0;
+        text-shadow: 1px 1px #333;
+    }
+    .logo2{
+        top: 3px;
+        left: 106px; 
+        text-shadow: 1px 1px #333;       
+    }
+}
