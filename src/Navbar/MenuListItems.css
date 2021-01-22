@@ -20,12 +20,16 @@
     overflow-y: auto;
 }
 .MenuListItems-item ul li{
-    justify-content: start;
     cursor: pointer;
     padding: 5px;
-    padding-left: 20px;
+    margin: 0;
     margin-top: 15px;
     line-height: 30px;
+    justify-items: left;
+}
+.MenuListItems-item ul li a{
+    margin: 0;
+    padding: 0;
 }
 .MenuListItems-item .fa-arrow-right{
     float: right;
@@ -34,10 +38,10 @@
     color: #666666;
 }
 .login-btn , .signup-btn{
+    justify-content: left;
     line-height: 20px!important;
     padding: 0!important;
     color: #ff6600;
-    margin-left: 30px;
 }
 /* Menu List Items 2 code */
 

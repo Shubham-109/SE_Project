@@ -392,14 +392,14 @@ class  MenuListItems extends Component{
                                     <hr></hr>
                                 </li>
 
-                                {this.state.data.allCategories.map( (array , i) =>{
+                                {/* {this.state.data.allCategories.map( (array , i) =>{
                                     
                                     return  <li id={i} onClick={this.handleMenuItemClick} >
                                                 <a>  { array.title } </a>
                                                 <span><i className="fa fa-arrow-right"></i></span>                                    
                                             </li>                                                    
                                 } )}
-                                
+                                 */}
                                 
                             </ul>
                         </div>

@@ -74,7 +74,7 @@ function SliderData(props) {
               <div className="card_desc">
                 {props.title}
                 <div className="bookPublisher"> Publisher :  {props.Publisher} </div>
-                <div className="bookPrice">{props.price} </div>
+                <div className="bookPrice">₹{props.price} </div>
               </div>
           </div>
           </Link>

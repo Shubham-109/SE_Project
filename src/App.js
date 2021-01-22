@@ -15,7 +15,6 @@ function App() {
   const [auth, setAuth] =useState(true);
   return (
       <div className="App">
-    
         <Switch>
           <Route
                   exact

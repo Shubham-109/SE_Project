@@ -27,6 +27,7 @@
     margin: 0;
     position: relative;
     align-items: baseline;
+    padding-top: 10px;
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;

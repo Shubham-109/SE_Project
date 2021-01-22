@@ -12,7 +12,7 @@ function ShowData(props){
     useEffect( ()=>{
         async function getData(){
             const res = await axios.get('https://india-time.online/fetchItemData.php?id='+props.id ) ;
-            console.log(res.data); 
+            console.log("Data : " + res.data); 
             
             
             setData(res.data.map( res=>{ 

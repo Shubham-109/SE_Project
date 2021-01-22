@@ -35,7 +35,7 @@ function Navbar(props){
     }
     const handleSignIn=()=>{
         async function getData(){
-            const res = await axios.get(`http://localhost:80/fetchDataList.php?t=` + sValue );
+            const res = await axios.get(`https://india-time.online/fetchDataList.php?t=` + sValue );
              
             setList(res.data.map( res=>{                          
                           console.log(res.title);                        

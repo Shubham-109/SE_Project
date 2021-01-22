@@ -1,85 +1,101 @@
-.sData{
-    color: white;
-    padding: 0;
+@media(max-width: 8000px){
+    .sData{
+        color: white;
+        padding: 0;
+    }
+    .dataL{
+        margin: 0;
+        padding: 20px;
+        float: left;
+        width: 35vw;
+    }
+    .dataImg{
+        margin-top: 20px;
+        padding: 20px;
+        border: 1px solid #333;
+        border-radius: 5px;
+    }
+    .dataR{
+        margin: 0;
+        padding: 20px;
+        float: right;
+        text-align: start;
+        justify-content: start;
+        width: 55vw;
+    }
+    .dataTitle{
+        padding: 20px;
+        font-size: 18px;
+        font-weight: 400;
+        justify-content: start;
+        word-spacing: 5px;
+    }
+    .dataPrice{
+        padding: 20px;
+        font-size: 30px;
+        font-weight: 700;
+        color: #ffff00;
+    }
+    .dataBtns{
+        display: flex;
+    }
+    .dataBtn1{
+        cursor: pointer;
+        text-transform: uppercase;
+        margin: 20px;
+        padding: 12px 25px ;
+        background: #ff9a02;
+        color: white;
+        font-size:15px;
+        font-weight:600;
+        outline:none;
+        box-shadow:none;
+        border:0;
+        border-radius:3px;
+    }
+    .dataBtn2{
+        cursor: pointer;
+        text-transform: uppercase;
+        margin: 20px;
+        padding: 12px 25px ;
+        background: #ff2212;
+        color: white;
+        font-size:15px;
+        font-weight:600;
+        outline:none;
+        box-shadow:none;
+        border:0;
+        border-radius:3px;
+    }
+    .highlights{
+        margin: 20px;
+    }
+    .highlights ul li{
+        word-spacing: 10px;   
+        margin: 15px;
+        text-align:left;
+    }
+    .white{
+        color:#fff;
+    }
+    .grey{
+        color: #aaa;
+    }
+    .mr{
+    margin-right: 5px;
+    }
 }
-.dataL{
-    margin: 0;
-    padding: 20px;
-    float: left;
-    width: 35vw;
-}
-.dataImg{
-    margin-top: 20px;
-    padding: 20px;
-    border: 1px solid #333;
-    border-radius: 5px;
-}
-.dataR{
-    margin: 0;
-    padding: 20px;
-    float: right;
-    text-align: start;
-    justify-content: start;
-    width: 55vw;
-}
-.dataTitle{
-    padding: 20px;
-    font-size: 18px;
-    font-weight: 400;
-    justify-content: start;
-    word-spacing: 5px;
-}
-.dataPrice{
-    padding: 20px;
-    font-size: 30px;
-    font-weight: 700;
-    color: #ffff00;
-}
-.dataBtns{
-    display: flex;
-}
-.dataBtn1{
-    cursor: pointer;
-    text-transform: uppercase;
-    margin: 20px;
-    padding: 12px 25px ;
-    background: #ff9a02;
-    color: white;
-    font-size:15px;
-    font-weight:600;
-    outline:none;
-    box-shadow:none;
-    border:0;
-    border-radius:3px;
-}
-.dataBtn2{
-    cursor: pointer;
-    text-transform: uppercase;
-    margin: 20px;
-    padding: 12px 25px ;
-    background: #ff2212;
-    color: white;
-    font-size:15px;
-    font-weight:600;
-    outline:none;
-    box-shadow:none;
-    border:0;
-    border-radius:3px;
-}
-.highlights{
-    margin: 20px;
-}
-.highlights ul li{
-    word-spacing: 10px;   
-    margin: 15px;
-    text-align:left;
-}
-.white{
-    color:#fff;
-}
-.grey{
-    color: #aaa;
-}
-.mr{
-  margin-right: 5px;
+
+@media(max-width: 768px){
+    .data{
+        display: list-item;
+    }
+    .dataL{
+        width: 100%;
+        padding: 5px;
+    }
+    .dataR{
+        width: 100%;
+        padding: 5px;
+    }
 }
